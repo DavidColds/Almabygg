@@ -1,0 +1,12 @@
+------------------------------------------
+ CREDITS
+------------------------------------------
+
+    - Bootstrap 4    -    https://getbootstrap.com
+
+    - Font Awesome   -    https://fontawesome.com
+
+    - Orion Icons    -    https://orioniconlibrary.com/
+
+    - Owl Carousel   -    https://owlcarousel2.github.io/OwlCarousel2/
+
