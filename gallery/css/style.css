@@ -146,8 +146,7 @@
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease;
   font-family: 'MobiriseIcons'; }
-  .mbr-gallery .modal .close::before {
-    content: '\e91a'; }
+
 
 .mbr-gallery .modal .close:hover {
   opacity: 1;
