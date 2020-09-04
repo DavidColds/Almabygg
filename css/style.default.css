@@ -1914,6 +1914,8 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
