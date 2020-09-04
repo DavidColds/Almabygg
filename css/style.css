@@ -449,3 +449,41 @@
     width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.component-partners {
+  position: relative;
+}
+.component-header {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 40px;
+}
+.component-partners--content {
+  background: #fff;
+  display: block;
+  position: relative;
+  height: 170px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+  transition: all 0.35s ease;
+}
+.component-partners--logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  max-width: 80%;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+img {
+  border-style: none;
+}
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}

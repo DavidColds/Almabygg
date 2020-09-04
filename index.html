@@ -13,13 +13,12 @@
   <!-- Owl Carousel-->
   <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-
   <!-- Google fonts-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
   <!-- theme stylesheet-->
   <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
   <!-- Custom stylesheet - for your changes-->
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- Favicon-->
   <link rel="shortcut icon" href="img/favicon.png">
   <!-- Aos -->
@@ -160,8 +159,6 @@
     <section class="bg-cover bg-center" style="background: url(img/hero-banner-2.jpg)">
       <div class="dark-overlay">
         <div class="py-5 text-white overlay-content">
-
-
           <div class="container px-lg-5">
             <div class="row align-items-center">
               <div class="col-lg-7 text-center text-lg-left">
@@ -181,17 +178,16 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5 text-center text-lg-right"><a class="btn btn-outline-light text-white" href="contact.html" target="blank">Starta nytt projeckt!</a></div>
+              <div class="col-lg-5 text-center text-lg-right"><a class="btn btn-outline-light text-white"
+                  href="contact.html" target="blank">Starta nytt projeckt!</a></div>
             </div>
           </div>
         </div>
       </div>
     </section>
   </div>
-  
-  <section class="py-5 bg-light"data-aos="fade-up"
-  data-aos-offset="300"
-  data-aos-easing="ease-in-sine">
+
+  <section class="py-5 bg-light" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <div class="container py-5">
       <div class="row">
         <div class="col-lg-4 mb-4 mb-lg-0"><a class="reset-anchor box" href="#">
@@ -261,12 +257,15 @@
           </a>
         </div>
       </div>
-      <div class="text-center mt-5">
-        <p class="lead font-weight-bold mb-4">We only select general contractors who have gone through our in-depth
-          vetting process. </p><a class="btn btn-outline-primary" href="contact.html" target="blank">Starta nytt projeckt!</a>
+      <div class="text-center mt-5"><a class="btn btn-outline-primary" href="contact.html" target="blank">Starta nytt
+          projeckt!</a>
       </div>
     </div>
   </section>
+
+
+
+
   <section class="py-5">
     <div class="container py-5">
       <header class="text-center mb-5">
@@ -278,8 +277,6 @@
           </div>
         </div>
       </header>
-
-
       <div class="container">
         <div class="row text-center">
           <div class="col-sm">
@@ -296,6 +293,77 @@
     </div>
     </div>
   </section>
+
+
+
+  <div class="container-fluid bg-light" data-aos="fade-left">
+    <section class="bg-cover bg-center" style="background: url(img/hero-banner-2.jpg)">
+      <div class="dark-overlay">
+
+
+        <div class="py-5 text-white overlay-content">
+          <section class="component component-partners bg-1">
+            <div class="container">
+              <div class="component-header">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="entry-content">
+                      <h3 style="text-align: center;">Produktpartners</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+
+                <div class="col-sm-3">
+                  <a href="https://www.k-rauta.se/" target="blank" class="component-partners--content"
+                    title="k-rauta">
+                    <figure class="component-partners--logo">
+                      <img width="164" height="35"
+                        src="https://cdn.freebiesupply.com/logos/large/2x/k-rauta-logo-png-transparent.png"
+                        class="img-responsive" alt=""> </figure>
+                  </a>
+                </div>
+
+                <div class="col-sm-3">
+                  <a href="https://www.brabyggare.se/hantverkare/33082/" target="blank" class="component-partners--content" title="brabyggare">
+                    <figure class="component-partners--logo">
+                      <img width="114" height="35"
+                        src="https://www.brabyggare.se/assets/images/logo/Brabyggare-logo-RGB-devis.svg"
+                        class="img-responsive" alt=""> </figure>
+                  </a>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://www.villaagarna.se/" target="blank" class="component-partners--content" title="villaagarna">
+                    <figure class="component-partners--logo">
+                      <img width="90" height="45"
+                        src="https://www.villaagarna.se/Static/images/ExternWebb/VA_Logo_RGB.svg"
+                        class="img-responsive" alt=""> </figure>
+                  </a>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://www.facebook.com/BoboAliman" target="blank" class="component-partners--content"
+                    title="facebook">
+                    <figure class="component-partners--logo">
+                      <img width="120" height="58"
+                        src="https://cdn2.iconfinder.com/data/icons/social-media-square-set/960/facebook-512.png"
+                        class="img-responsive" alt=""> </figure>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+
+        </div>
+
+
+
+      </div>
+    </section>
+  </div>
   <!-- Testimonials Section -->
   <section class="py-5 bg-light">
     <div class="container py-5">
@@ -497,12 +565,13 @@
   <script src="js/front.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-$(document).ready(function () {
-  // AOS Transition Time
-  AOS.init({
-    duration: 1000,
-  })
-});  </script>
+    $(document).ready(function () {
+      // AOS Transition Time
+      AOS.init({
+        duration: 1000,
+      })
+    });
+  </script>
   <script>
     // ------------------------------------------------------- //
     //   Inject SVG Sprite - 
